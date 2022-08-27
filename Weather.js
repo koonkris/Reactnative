@@ -1,8 +1,11 @@
+import { Text, ImageBackground, StyleSheet } from 'react-native'
+import Forecast from './Forcast';
+
 export default function Weather(props) {
     const [forecastInfo, setForecastInfo] = useState({
-    main: '-',
-    description: '-',
-    temp: 0
+        main: '-',
+        description: '-',
+        temp: 0
     })
     return (
         <View>
